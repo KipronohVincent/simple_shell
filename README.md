@@ -154,7 +154,9 @@
 </div>
 
 
-## :writing_hand: AUTHOR:
+## :writing_hand: AUTHORS:
 
 [KIPRONOH VINCENT](https://github.com/KipronohVincent)
+
+[svitalis123](https://github.com/svitalis123)
 [svitalis123](https://github.com/svitalis123)
