@@ -16,8 +16,10 @@
 
 - The shells we implemented will be similar to, but simpler than, the one you run every day in Unix. You can find out which shell you are running by typing "echo $SHELL" at a prompt. You may then wish to look at the man pages for 'csh' or the shell you are running (more likely tcsh, or bash, or for those few wacky ones in the crowd, zsh or ksh) to learn more about all of the functionality that can be present. For this project, you do not need to implement too much functionality because its just a simple shell.
 
-## Program Specifications
-## Basic Shell.
+## Program Specification
+
+## Basic Shell
+
 #### Simple shell 0.1
 
 - Write a UNIX command line interpreter.
@@ -100,7 +102,7 @@
 	- Remove an environment variable
 	- Command syntax: `unsetenv` VARIABLE
 	- Should print something on stderr on failure
-#### CD
+#### cd
 - Simple shell 1.0 +
 
 	- Implement the builtin command `cd`:
@@ -111,7 +113,7 @@
 	- You have to handle the command `cd -`
 	- You have to update the environment variable `PWD` when you change directory
 	`man chdir`, `man getcwd`
-####  ;
+#### Handler of this separator `;`
 
 - Simple shell 1.0 +
 
