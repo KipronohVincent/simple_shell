@@ -88,7 +88,7 @@
 
 	- handle arguments for the built-in exit
 	- Usage: exit status, where status is an integer used to exit the shell
-#### setenv, unsetenv
+#### `setenv, unsetenv`
 
 - Simple shell 1.0 +
 
@@ -102,7 +102,7 @@
 	- Remove an environment variable
 	- Command syntax: `unsetenv` VARIABLE
 	- Should print something on stderr on failure
-#### cd
+#### `cd`
 - Simple shell 1.0 +
 
 	- Implement the builtin command `cd`:
@@ -118,12 +118,12 @@
 - Simple shell 1.0 +
 
 	- Handle the commands separator `;`
-#### && and ||
+#### `&& and ||`
 
 - Simple shell 1.0 +
 
 	- Handle the` &&` and `||` shell logical operators
-#### alias
+#### `alias`
 
 - Simple shell 1.0 +
 
@@ -132,7 +132,7 @@
 	- alias: Prints a list of all aliases, one per line, in the form name='value'
 	- alias name [name2 ...]: Prints the aliases name, name2, etc 1 per line, in the form name='value'
 	- alias name='value' [...]: Defines an alias for each name whose value is given. If name is already an alias, replaces its value with value
-#### Comments
+#### `Comments`
 
 - Simple shell 1.0 +
 
